@@ -260,3 +260,41 @@ main {
     width: 542px;
     margin-left: 210px;
 }
+
+/* Achivements  */
+.achivements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 125px;
+}
+
+.achivement {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+
+.achivement img {
+    padding-top: 45px;
+}
+
+.achivement-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+
+.achivement-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+.achivements:hover .achivement {
+    background-color: gold;
+     
+}
