@@ -294,7 +294,125 @@ main {
     font-size: 20px;
     color: #727272;
 }
+
 .achivements:hover .achivement {
     background-color: gold;
-     
+
+}
+
+/* sponsors styles */
+.sponsors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.sponsor-details {
+    width: 542px;
+    height: 129px;
+    margin-bottom: 50px;
+}
+
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+}
+
+.sponsor-description {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    width: 542px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.sponsors-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 155px;
+}
+
+/* copyright styles */
+
+.copyright {
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    height: 100px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 130px;
+    margin-bottom: 215px;
+}
+
+.copyright-description {
+    text-align: center;
+    padding: 35px 410px;
+}
+
+/* extra section */
+.connect {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.connect input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
+    width: 100%;
+}
+
+.connect a {
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.connect-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
+
+}
+
+.connect-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    width: 542px;
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+/* responsive section styles */
+
+
+
+
+
+
+.hide{
+    display: none;
 }
